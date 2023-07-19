@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "es2022",
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "baseUrl": "./src",
+      "incremental": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["./src/types", "./node_modules/@types"]
+    },
+    "ts-node": {
+      "transpileOnly": false
+    },
+    "include": [
+      "src/**/*.ts",
+      "index.ts",
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+  
